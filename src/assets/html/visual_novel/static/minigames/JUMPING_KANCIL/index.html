@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jumping Deer</title>
+    <script type="text/javascript" src="lib/phaser.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
+
+    <!-- Game Script -->
+    <script type="text/javascript" src="src/global.js"></script>
+
+    <script type="text/javascript" src="src/stateBoot.js"></script>
+
+    <script type="text/javascript" src="src/stateTitle.js"></script>
+    <script type="text/javascript" src="src/stateTutorial.js"></script>
+
+    <script type="text/javascript" src="src/statePreload.js"></script>
+    <script type="text/javascript" src="src/stateGameplay.js"></script>
+    <!--<script type = "text/javascript" src = "src/stateEnd.js"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="lib/font.css">
+</head>
+
+<body>
+    <div class="fontPreload" style="font-family: dbxlnn">.</div>
+
+    <div id="popUp" class="modal">
+        <div class="modalContent" align="center">
+            <h2>Notification</h2>
+            <h4 id="message">Syncing data...</h4>
+            <hr>
+
+            <div class="modalFooter">
+                <a id="dismiss" href="javascript:void(0)">Dismiss</a><br>&nbsp;
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var registered = false;
+        var loggedIn = false;
+        var isChecked = false;
+        var scoreIsSubmitted = false;
+        var isSubmitting = false;
+        var errorCode = 0;
+
+        // Data from server
+        var playTime = 0;
+        var waitingTime = 0;
+        var dailyLimit = 0;
+        var gameLimit = 0;
+        var playableStatus = false;
+
+        var isTutorialFirstTime = true;
+        var game;
+
+        (function () {
+            let gameWidth = 720;
+            let gameHeight = 1280;
+            
+            game = new Phaser.Game(defaultWidth, defaultHeight, Phaser.CANVAS, "Jumping Deer", { preload: preload, create: create, update: update });
+
+            // List of game state
+            game.state.add('boot', stateBoot);
+            game.state.add('preload', statePreload);
+            game.state.add('title', stateTitle);
+            game.state.add('tutorial', stateTutorial);
+            game.state.add('gameplay', stateGameplay);
+            //game.state.add('end', stateEnd);
+
+            // Call the Boot state
+            game.state.start('boot');
+
+            function preload() { }
+            function create() { }
+            function update() { }
+
+        })();
+
+        var global = new Global(game);
+    </script>
+</body>
+
+</html>

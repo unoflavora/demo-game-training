@@ -1,0 +1,15 @@
+{
+    "version": "1.2",
+    "organization": "Agate",
+    "title": "Mandiri Deshima",
+    "language": "en-US",
+    "masteryScore": 0,
+    "startingPage": "index.html",
+    "source": "./dist",
+    "package": {
+      "version": "0.1.0",
+      "zip": true,
+      "outputFolder": "./scormPackages",
+      "description": "Mandiri Deshima course"
+    }
+}

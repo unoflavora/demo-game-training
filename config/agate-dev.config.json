@@ -1,0 +1,7 @@
+{
+	"DEVELOPMENT_BUILD": true,
+	"AUTO_CANVAS_RESIZE": true,
+	"DEBUG_VIEW" : false,
+	"BASE_API_URL": "",
+	"OFFLINE_MODE" : true
+}

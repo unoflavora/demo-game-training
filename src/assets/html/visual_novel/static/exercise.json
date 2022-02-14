@@ -1,0 +1,521 @@
+[
+  {
+    "exerciseId": "7",
+    "lessonId": "0",
+    "type": "slider",
+    "content": [
+      {
+        "question": "1. I'm unsure of my ability to achieve the goals I set for myself",
+        "answers": [
+          {
+            "description": "Not at all",
+            "point": 5,
+            "user_answer": false
+          },
+          {
+            "description": "Rarely",
+            "point": 4,
+            "user_answer": false
+          },
+          {
+            "description": "Sometimes",
+            "point": 3,
+            "user_answer": false
+          },
+          {
+            "description": "Often",
+            "point": 2,
+            "user_answer": true
+          },
+          {
+            "description": "Very often",
+            "point": 1,
+            "user_answer": false
+          }
+        ]
+      },
+      {
+        "question": "2. When working on my goals, I put in maximum effort and work even harder if I've suffered a setback",
+        "answers": [
+          {
+            "description": "Not at all",
+            "point": 1,
+            "user_answer": false
+          },
+          {
+            "description": "Rarely",
+            "point": 2,
+            "user_answer": true
+          },
+          {
+            "description": "Sometimes",
+            "point": 3,
+            "user_answer": false
+          },
+          {
+            "description": "Often",
+            "point": 4,
+            "user_answer": false
+          },
+          {
+            "description": "Very often",
+            "point": 5,
+            "user_answer": false
+          }
+        ]
+      },
+      {
+        "question": "3. I regularly set goals and objectives to achieve my vision for my life",
+        "answers": [
+          {
+            "description": "Not at all",
+            "point": 1,
+            "user_answer": false
+          },
+          {
+            "description": "Rarely",
+            "point": 2,
+            "user_answer": false
+          },
+          {
+            "description": "Sometimes",
+            "point": 3,
+            "user_answer": false
+          },
+          {
+            "description": "Often",
+            "point": 4,
+            "user_answer": true
+          },
+          {
+            "description": "Very often",
+            "point": 5,
+            "user_answer": false
+          }
+        ]
+      },
+      {
+        "question": "4. I think positively about setting goals and making sure my needs are met",
+        "answers": [
+          {
+            "description": "Not at all",
+            "point": 1,
+            "user_answer": false
+          },
+          {
+            "description": "Rarely",
+            "point": 2,
+            "user_answer": true
+          },
+          {
+            "description": "Sometimes",
+            "point": 3,
+            "user_answer": false
+          },
+          {
+            "description": "Often",
+            "point": 4,
+            "user_answer": false
+          },
+          {
+            "description": "Very often",
+            "point": 5,
+            "user_answer": false
+          }
+        ]
+      },
+      {
+        "question": "5. I use rewards (and consequences) to keep myself focused. For example, If I finish my report on time, I allow myself to take a coffe break",
+        "answers": [
+          {
+            "description": "Not at all",
+            "point": 1,
+            "user_answer": false
+          },
+          {
+            "description": "Rarely",
+            "point": 2,
+            "user_answer": false
+          },
+          {
+            "description": "Sometimes",
+            "point": 3,
+            "user_answer": false
+          },
+          {
+            "description": "Often",
+            "point": 4,
+            "user_answer": true
+          },
+          {
+            "description": "Very often",
+            "point": 5,
+            "user_answer": false
+          }
+        ]
+      },
+      {
+        "question": "6. I believe that if I work hard and apply my abilities and talents, I will be successful",
+        "answers": [
+          {
+            "description": "Not at all",
+            "point": 1,
+            "user_answer": true
+          },
+          {
+            "description": "Rarely",
+            "point": 2,
+            "user_answer": false
+          },
+          {
+            "description": "Sometimes",
+            "point": 3,
+            "user_answer": false
+          },
+          {
+            "description": "Often",
+            "point": 4,
+            "user_answer": false
+          },
+          {
+            "description": "Very often",
+            "point": 5,
+            "user_answer": false
+          }
+        ]
+      }
+    ],
+    "result": {
+      "true_required": 15,
+      "description": "You're doing OK on self-motivation. You're certainly not failing - however, you could achieve much more. To achieve what you want, try to increase the motivation factors in all areas of your life.",
+      "button_text": "Horray!"
+    }
+  },
+  {
+    "exerciseId": "8",
+    "lessonId": "0",
+    "type": "checkbox",
+    "content": [
+      {
+        "question": "1. Can you guess which **two** of these are part of Agate's Gamification Division?",
+        "answers": [
+          {
+            "description": "Membuat perencanaan operasional yang matang",
+            "is_true": true,
+            "user_answer": false
+          },
+          {
+            "description": "Memastikan Kegiatan Operasional Terlaksana sesuai standar",
+            "is_true": false,
+            "user_answer": true
+          },
+          {
+            "description": "Mengawasi apabila terdapat ketidaksesuaian operasional",
+            "is_true": true,
+            "user_answer": false
+          },
+          {
+            "description": "Melakukan kegiatan pelaporan dan pengendalian",
+            "is_true": false,
+            "user_answer": true
+          }
+        ]
+      }
+    ],
+    "result": {
+      "true_required": 0,
+      "description": "Whoops! It seems that we need to introduce you to our Gamification Division, which consists of Gamified Learning and Gamified Advertising. Say hi, everyone!",
+      "button_text": "Howdy!"
+    }
+  },
+  {
+    "exerciseId": "9",
+    "lessonId": "0",
+    "type": "pointanswer",
+    "content": [
+      {
+        "question": "For what purposes are serious games used?",
+        "answer": ["a", "b", "c", "d", "e"]
+      },
+      {
+        "question": "2. For what purposes are serious games used?",
+        "answer": "asd"
+      }
+    ],
+    "result": {
+      "description": "By knowing how you fulfill your needs, then you know why you do what you do. Keep it up! Good luck on your journey!",
+      "button_text": "Horray!"
+    }
+  },
+  {
+    "exerciseId": "10",
+    "lessonId": "0",
+    "type": "yesorno",
+    "content": [
+      {
+        "question": "Do you know what meant of resource?",
+        "answers": {
+          "yes": true,
+          "no": false,
+          "user_answer": false
+        }
+      },
+      {
+        "question": "Do you know that is more than the resources needed to become a successful company?",
+        "answers": {
+          "yes": true,
+          "no": false,
+          "user_answer": true
+        }
+      },
+      {
+        "question": "Do you know that resourcefulness affects in the succeseding a company?",
+        "answers": {
+          "yes": true,
+          "no": false,
+          "user_answer": true
+        }
+      }
+    ],
+    "result": {
+      "true_required": 2,
+      "description": "You're almost ready to go. Make sure you are paying attention to the next lesson, so you can learn more about Agate. Goodluck!",
+      "button_text": "Horray!"
+    }
+  },
+  {
+    "exerciseId": "11",
+    "lessonId": "0",
+    "type": "multiplechoice",
+    "content": [
+      {
+        "question": "Which one do you think the more practical thing to do to make the car move?",
+        "answers": [
+          {
+            "description": "Driving",
+            "is_true": true,
+            "user_answer": true
+          },
+          {
+            "description": "Pushing",
+            "is_true": false,
+            "user_answer": false
+          },
+          {
+            "description": "Swimming",
+            "is_true": true,
+            "user_answer": false
+          },
+          {
+            "description": "Reading",
+            "is_true": false,
+            "user_answer": false
+          }
+        ]
+      },
+      {
+        "question": "Which one do you think the more practical thing to do to make the car move?",
+        "answers": [
+          {
+            "description": "Terminal Petikemas",
+            "is_true": true,
+            "user_answer": true
+          },
+          {
+            "description": "LevioKaliYa Levio",
+            "is_true": false,
+            "user_answer": false
+          }
+        ]
+      }
+    ],
+    "result": {
+      "true_required": 0,
+      "description": "Both can move the car, obviously. The problem with pushing the car is when you once quit pushing, the car stops. It's a different story with driving. As long as you don’t step on the brakes, the car moves still.",
+      "button_text": "Horray!"
+    }
+  },
+  {
+    "exerciseId": "12",
+    "lessonId": "0",
+    "type": "swipe",
+    "content": [
+      {
+        "question": "Come to think of it, what are the resources that meant here?",
+        "answers": [
+          {
+            "description": "Money",
+            "left": false,
+            "right": true,
+            "user_answer": false
+          },
+          {
+            "description": "Talent",
+            "left": true,
+            "right": false,
+            "user_answer": false
+          },
+          {
+            "description": "Technologies",
+            "left": false,
+            "right": true,
+            "user_answer": true
+          },
+          {
+            "description": "Facilities",
+            "left": false,
+            "right": true,
+            "user_answer": true
+          },
+          {
+            "description": "Networks",
+            "left": false,
+            "right": true,
+            "user_answer": true
+          },
+          {
+            "description": "Goal",
+            "left": true,
+            "right": false,
+            "user_answer": true
+          },
+          {
+            "description": "Abillity",
+            "left": true,
+            "right": false,
+            "user_answer": false
+          }
+        ]
+      }
+    ],
+    "result": {
+      "true_required": 0,
+      "description": "Oh, it's not quite right. You need money, talent, technologies, facilities and networks to run a business. These are the resources you need. In Agate's case, Agate has the funds as its capital to keep the business going, many highly talented crews, access to technology and facilities to support their crews, and consistently maintain a good relationship to every element of the industry.",
+      "button_text": "Horray!"
+    }
+  },
+  {
+    "exerciseId": "13",
+    "lessonId": "0",
+    "type": "draganddrop",
+    "content": [
+      {
+        "question": "Is this Lesson type available in Levio?",
+        "answers": [
+          {
+            "description": "Visual Narrative",
+            "left": true,
+            "right": false,
+            "user_answer": true
+          },
+          {
+            "description": "Read",
+            "left": true,
+            "right": false,
+            "user_answer": true
+          },
+          {
+            "description": "Role Playing",
+            "left": false,
+            "right": true,
+            "user_answer": true
+          },
+          {
+            "description": "Watch",
+            "left": true,
+            "right": false,
+            "user_answer": true
+          },
+          {
+            "description": "D & D",
+            "left": false,
+            "right": true,
+            "user_answer": true
+          }
+        ],
+        "droppedText": {
+          "left": "Yes",
+          "right": "No"
+        }
+      }
+    ],
+    "result": {
+      "true_required": 0,
+      "description": "Learning all of the Lesson types and how to nagivate them will help improve your experience in using Levio to be much more enjoyable.",
+      "button_text": "Great, let's keep going!"
+    }
+  },
+  {
+    "exerciseId": "14",
+    "lessonId": "0",
+    "type": "essay",
+    "content": [
+      {
+        "question": "1. What do you do to fulfill your need?",
+        "answer": "Certainy"
+      },
+      {
+        "question": "2. What do you do to fulfill your need?",
+        "answer": "Uncertainy"
+      },
+      {
+        "question": "3. What do you do to fulfill your need?",
+        "answer": "Significance"
+      }
+    ],
+    "result": {
+      "description": "By Certainy how you Uncertainy your needs, Significance you know why you do what you do. Keep it up! Good luck on your journey!",
+      "button_text": "Horray!"
+    }
+  },
+  {
+    "exerciseId": "15",
+    "lessonId": "0",
+    "type": "multiplechoiceimage",
+    "content": [
+      {
+        "question": "Nomor 1 Between these two, which one is the easiest way to be significant in an instant?",
+        "answers": [
+          {
+            "point": 0,
+            "image": "https://levio.staging.leviodevelopment.xyz/asset_bank/25/testone_png",
+            "imageId": 25,
+            "imageFileName": "12f00e2c0eb846b6863d438274b06ecc_testOne.png",
+            "user_answer": true
+          },
+          {
+            "point": 1,
+            "image": "https://levio.staging.leviodevelopment.xyz/asset_bank/26/testtwo_png",
+            "imageId": 26,
+            "imageFileName": "708eeda524314f7c9c3f14f0acfb63b4_testTwo.png",
+            "user_answer": false
+          }
+        ]
+      },
+      {
+        "question": "Nomor 2 Between these two, which one is the easiest way to be significant in an instant?",
+        "answers": [
+          {
+            "point": 1,
+            "image": "https://levio.staging.leviodevelopment.xyz/asset_bank/26/testtwo_png",
+            "imageId": 26,
+            "imageFileName": "708eeda524314f7c9c3f14f0acfb63b4_testTwo.png",
+            "user_answer": false
+          },
+          {
+            "point": 0,
+            "image": "https://levio.staging.leviodevelopment.xyz/asset_bank/25/testone_png",
+            "imageId": 25,
+            "imageFileName": "12f00e2c0eb846b6863d438274b06ecc_testOne.png",
+            "user_answer": true
+          }
+        ]
+      }
+    ],
+    "result": {
+      "true_required": 0,
+      "description": "0 True",
+      "button_text": "Horray!"
+    }
+  }
+]

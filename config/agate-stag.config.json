@@ -1,0 +1,7 @@
+{
+    "AUDIO_ACTIVE": true,
+    "DEVELOPMENT_BUILD": false,
+	"AUTO_CANVAS_RESIZE": true,
+    "DEBUG_VIEW" : true,
+    "BASE_API_URL": ""
+}

@@ -1,0 +1,25 @@
+{
+    "id": "Levio",
+    "title": "Levio Course",
+    "author": "Levio",
+    "courseCover": {
+      "imgUrl": "https://qa.staging.leviodevelopment.xyz/course_cover/203/88170771_4dae_4bdf_a4da_570590d508a9image_png",
+      "imgFileName": "course-head.png"
+    },
+    "splash_screen": false,
+    "topics": [
+      {
+        "id": "0",
+        "title": "Core Lesson",
+        "link": true,
+        "lessons": [
+          {
+            "id": "5",
+            "title": "Visual Narative",
+            "type": "visual_narrative"
+          }
+        ]
+      }
+    ]
+  }
+  

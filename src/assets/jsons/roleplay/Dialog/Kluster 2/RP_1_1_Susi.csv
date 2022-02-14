@@ -1,0 +1,7 @@
+﻿startId;0;;;;;;;;;;
+;;;;;;;;;;;
+id;type;talker;messages;emote;question type;choices;choiceValues;choiceIdNexts;;;
+0;message;Susi;"Hi [Pemain]. Perkenalkan Saya Susi, BSM yang bertugas disini.";;;;;1;;;
+1;message;Susi;"Sekarang carilah Meja didalam ruangan yang ada di Gedung ini;";;;;;2;;;
+2;message;Susi;dimana di atas meja tersebut terdapat pesawat telepon untuk kamu selesaikan misi.;;;;;3;;;
+3;message;Pemain;"Siap Bu, akan saya laksanakan.";;;;;;;;

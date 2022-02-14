@@ -1,0 +1,6 @@
+startId;0;dialogueType;roleplay;;;;;
+startEmote;4;afterSatisfiedId;210;;;;;
+id;type;talker;messages;emote;question type;choices;choiceValues;choiceIdNexts
+0;message;Edward;Selamat ya Anda telah menyelesaikan Misi 2.;;;;;1
+1;message;Edward;Selanjutnya silakan temukan boneka salju yang tedapat petunjuk Misi 3 yang dapat kamu baca.;;;;;2
+2;message;Pemain;Ok. . . Sekarang saya akan mencari boneka salju untuk mendapatkan petunjuk Misi 3;;;;;

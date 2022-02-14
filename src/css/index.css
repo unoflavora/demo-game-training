@@ -1,0 +1,44 @@
+html, body {
+  font-family: 'Roboto-Regular';
+  background-color: #181818;
+  /*background-image: url('../assets/img/BG/BG_Tiled.png');*/
+  margin: 0px 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  touch-action: manipulation;
+  height: 100vh; /*claim entire screen for ios safari*/
+  width: 100vw; /*auto center functionality purpose*/
+}
+
+/*html {
+  touch-action: manipulation;
+}*/
+
+#wrapper{
+  position: fixed; /*IMPORTANT placement based on browser window size / and position*/
+  display: flex;
+  height: 100vh; /*claim entire screen for ios safari*/
+  width: 100vw; /*auto center functionality purpose*/
+  justify-content: center;
+}
+
+#game {
+  /* display: flex;*/
+  align-items: center;
+  justify-content: center;
+  transform-origin: center;
+  touch-action: manipulation;
+}
+
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
+
+a,
+button,
+.myelements {
+  -ms-touch-action: manipulation;
+  /* IE10  */
+  touch-action: manipulation;
+  /* IE11+ */
+}

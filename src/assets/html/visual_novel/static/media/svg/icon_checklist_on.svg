@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c3e33d"/>
+      <stop offset="1" stop-color="#95db27"/>
+    </radialGradient>
+    <filter id="Union_59" x="9.364" y="7.047" width="31.52" height="31.52" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-color="#e6ff00" flood-opacity="0.439"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon_checklist_on" transform="translate(3615 13357)">
+    <rect id="Rectangle_3020" data-name="Rectangle 3020" width="50" height="50" transform="translate(-3615 -13357)" fill="none"/>
+    <g id="Ellipse_733" data-name="Ellipse 733" transform="translate(-3611.958 -13353.878)">
+      <circle id="Ellipse_738" data-name="Ellipse 738" cx="21.879" cy="21.879" r="21.879" transform="translate(0 0)" stroke="#7dc807" stroke-width="1" fill="url(#radial-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -3615, -13357)" filter="url(#Union_59)">
+      <path id="Union_59-2" data-name="Union 59" d="M3.071,16.376H2.994A2.994,2.994,0,0,1,0,13.382V2.994a2.995,2.995,0,0,1,5.99,0v7.241h14.9a3.07,3.07,0,1,1,0,6.141Z" transform="translate(10.86 24.49) rotate(-45)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

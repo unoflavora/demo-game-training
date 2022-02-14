@@ -1,0 +1,636 @@
+{
+  "id": "5",
+  "author": "levio",
+  "type": "visual_narrative",
+  "chapter": [
+    {
+      "id": "chap-01",
+      "title": "Test",
+      "background": "RumahHani.png",
+      "content": [
+        {
+          "id": "0",
+          "type": "prologue",
+          "description": "Pada kali ini kalian akan dihadapkan pada contoh lesson Visual Narrative dan yang kalian lihat saat ini adalah Prologue dari lesson visual narrative.",
+          "to": "1"
+        },
+        {
+          "id": "1",
+          "type": "narrative",
+          "character": "",
+          "description": "Ini adalah contoh tipe 'narrative', ini biasanya digunakan untuk narrator, disini juga kalian dapat mendefinisikan siapa saja karakter yang akan muncul pada key 'character_list'!",
+          "to": "2",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "type": "narrative",
+          "character": "",
+          "description": "Kalian juga bisa memindahkan karakter seperti ini loh!",
+          "to": "3",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": true,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": false,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "type": "picture",
+          "character": "Anggi",
+          "baloon_color": "#0069B0",
+          "baloon_position": "left",
+          "img": "vn-phone.png",
+          "to": "4",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "type": "text",
+          "character": "Anggi",
+          "baloon_color": "#0069B0",
+          "baloon_position": "left",
+          "description": "Yang di atas tadi adalah contoh dari chat baloon gambar, tipe nya adalah 'picture' kalian bisa menambahkan gambar apapun disana, gif juga bisa loh, dan ngomong ngomong yang sekarang ini tipe chat baloon 'text'",
+          "to": "5",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "type": "long_text",
+          "character": "Baginda",
+          "baloon_color": "#9A5D45",
+          "baloon_position": "right",
+          "description": [
+            "Kalau yang ini tipe nya 'long text'",
+            "Kalian",
+            "Bisa",
+            "Memisahkannya",
+            "Seperti ini"
+          ],
+          "to": "6",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "type": "question_choice",
+          "choice": {
+            "description": "Ini adalah tipe 'question_choice', setiap jawaban bisa membawa kalian ke takdir (alur cerita) yang berbeda!",
+            "answer": [
+              {
+                "description": "Balik ke sebelumnya",
+                "to": "5"
+              },
+              {
+                "description": "Lanjut... 🎉",
+                "to": "7"
+              }
+            ]
+          },
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "type": "text",
+          "character": "Anggi",
+          "baloon_color": "#0069B0",
+          "baloon_position": "left",
+          "description": "Selanjutnya kalian akan dibawa ke chapter selanjutnya",
+          "next_chapter": "chap-02",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": true,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": false,
+              "position": "left"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chap-02",
+      "title": "Chapter 2 Penutupan",
+      "background": "FoodCourt.png",
+      "content": [
+        {
+          "id": "8",
+          "type": "narrative",
+          "character": "",
+          "description": "Ini adalah contoh chapter ke 2 😲",
+          "to": "9a",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": true,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": false,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "9a",
+          "type": "text",
+          "character": "Anggi",
+          "baloon_color": "#0069B0",
+          "baloon_position": "left",
+          "description": "Ini adalah Chapter Kedua",
+          "to": "9",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "type": "question_choice",
+          "choice": {
+            "description": "Ini adalah tipe 'question_choice', setiap jawaban bisa membawa kalian ke takdir (alur cerita) yang berbeda!",
+            "answer": [
+              {
+                "description": "Jawaban Pertama",
+                "to": "10a"
+              },
+              {
+                "description": "jawaban Kedua",
+                "to": "10b"
+              }
+            ]
+          },
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "10a",
+          "type": "text",
+          "character": "Anggi",
+          "baloon_color": "#0069B0",
+          "baloon_position": "left",
+          "description": "Ini adalah jawaban pertama",
+          "to": "11",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "10b",
+          "type": "text",
+          "character": "Baginda",
+          "baloon_color": "#9A5D45",
+          "baloon_position": "right",
+          "description": "Ini adalah jawaban kedua",
+          "to": "11",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "type": "narrative",
+          "character": "",
+          "description": "Chapter Selesai",
+          "to": "end",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "type": "text",
+          "character": "Baginda",
+          "baloon_color": "#9A5D45",
+          "baloon_position": "right",
+          "description": "Selanjutnya kalian akan dibawa ke chapter selanjutnya",
+          "to": "13",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "type": "text",
+          "character": "Baginda",
+          "baloon_color": "#9A5D45",
+          "baloon_position": "right",
+          "description": "Selanjutnya kalian akan dibawa ke chapter selanjutnya",
+          "to": "14",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "type": "text",
+          "character": "Baginda",
+          "baloon_color": "#9A5D45",
+          "baloon_position": "right",
+          "description": "Selanjutnya kalian akan dibawa ke chapter selanjutnya",
+          "to": "15",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "type": "text",
+          "character": "Baginda",
+          "baloon_color": "#9A5D45",
+          "baloon_position": "right",
+          "description": "Selanjutnya kalian akan dibawa ke chapter selanjutnya",
+          "to": "end",
+          "character_list": [
+            {
+              "id": "1",
+              "src": "hani-1.png",
+              "active": false,
+              "position": "right"
+            },
+            {
+              "id": "2",
+              "src": "hani-2.png",
+              "active": true,
+              "position": "right"
+            },
+            {
+              "id": "3",
+              "src": "nita-1.png",
+              "active": false,
+              "position": "left"
+            },
+            {
+              "id": "4",
+              "src": "nita-2.png",
+              "active": true,
+              "position": "left"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

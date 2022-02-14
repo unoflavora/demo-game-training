@@ -1,0 +1,6 @@
+﻿startId;0;;;;;;;;;;
+;;;;;;;;;;;
+id;type;talker;messages;emote;question type;choices;choiceValues;choiceIdNexts;;;
+0;message;Edward;Selamat datang selamat berpetualang;;;;;1;;;
+1;message;Pemain;Terimakasih atas sambutannya;;;;;2;;;
+2;message;Pemain;Saya akan berusaha;;;;;;;;

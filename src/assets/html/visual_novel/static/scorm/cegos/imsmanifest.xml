@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xp="http://www.giuntilabs.com/exact/xp_v1d0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:imsmd="http://www.imsproject.org/metadata" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" identifier="MANIFEST_us_mh011_a" version="1.2" >
+	<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+</metadata>	
+  <organizations default="ORGANIZATION_us_mh011_a">
+    <organization identifier="ORGANIZATION_us_mh011_a" structure="hierarchical">
+      <title>Assertiveness: know your profile. Part A</title>
+      <item identifier="ITEM_us_mh011_a" identifierref="RESOURCE_us_mh011_a" isvisible="true"><title>Assertiveness: know your profile. Part A</title></item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RESOURCE_us_mh011_a" type="webcontent" adlcp:scormtype="sco" href="launch.html"><file href="launch.html" /></resource>
+  </resources>
+</manifest>
+

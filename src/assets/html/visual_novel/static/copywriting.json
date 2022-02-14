@@ -1,0 +1,351 @@
+{
+  "selected_language": "en-US",
+  "copywriting": {
+    "en-US": {
+      "language": "english",
+      "topic": {
+        "lesson_remains": {
+          "finish": "You have completed this topic!",
+          "unfinish": "Lesson Remaining"
+        }
+      },
+      "exam": {
+        "exam_confirmation": {
+          "description": "This exam only can be done once. By checking the box below, means you agree to take the exam.",
+          "checkbox": "Yes, I Agree",
+          "button_start": "Start Exam",
+          "button_back": "Back to topic"
+        },
+        "exam_nav_button": {
+          "button_next": "Skip",
+          "button_previous": "Back",
+          "button_finish": "Finish"
+        },
+        "exam_header": {
+          "question_select": "Select Question"
+        },
+        "exam_checkpoint": {
+          "header": "Your Exam has been Completed",
+          "description": "Please double-check your answer before submitting it.",
+          "button_check_answer": "Review My Answer",
+          "button_send_answer": "Submit Exam"
+        },
+        "exam_review": {
+          "question_name": "Questions",
+          "header": "Tap Your Answer to Change It",
+          "button_send_answer": "Submit Exam"
+        },
+        "exam_timeout": {
+          "header": "Time Up!",
+          "description": "Exam timer has reach out the limit.",
+          "button": "Submit"
+        },
+        "exam_submit": {
+          "confirmation": {
+            "header": "Submit Exam ?",
+            "description": "You can't change your answers after submitting it!.",
+            "checkbox": "Yes, I Understand",
+            "button": "Submit"
+          },
+          "sending": "Sending...",
+          "success": {
+            "header": "Thank you!",
+            "description": "For completing your exam",
+            "button": "Ok"
+          }
+        },
+        "exam_result": {
+          "header": "You Scored",
+          "button": "Continue",
+          "get_result": [
+            {
+              "requirement": 0,
+              "title": "Try Harder!",
+              "sub_title": "You could do better next time"
+            },
+            {
+              "requirement": 60,
+              "title": "Don't Give Up!",
+              "sub_title": "Let's give more effort next time"
+            },
+            {
+              "requirement": 90,
+              "title": "Good!",
+              "sub_title": "You're doing a great job"
+            },
+            {
+              "requirement": 100,
+              "title": "Excellent",
+              "sub_title": "You've mastered this knowledge"
+            }
+          ]
+        },
+        "exam_failed": {
+          "title": "You didn't pass the exam",
+          "body": "But don't give up! Study the previous lessons again to retake the exam.",
+          "button": "Back to topic"
+        }
+      },
+      "checkpoint": {
+        "header": "Lesson Completed",
+        "exp_text": "Reward",
+        "button_next_lesson": "Next lesson",
+        "button_back_topic": "Back to topic"
+      },
+      "read": {
+        "author": "By"
+      },
+      "exercise": {
+        "exercise_content": {
+          "button_slider": "Next",
+          "button_essay": "Submit",
+          "button_pointanswer": "Next",
+          "button_checkbox": "Select"
+        },
+        "exercise_result": {
+          "header": "RESULT"
+        }
+      },
+      "watch": {
+        "button_next": "Next Lesson",
+        "button_previous": "Previous Lesson"
+      },
+      "quiz": {
+        "quiz_review": {
+          "header": "Quiz Review",
+          "button": "Got it"
+        },
+        "quiz_result": {
+          "header": "You Scored",
+          "button_check_answer": "Review my Answer",
+          "button_repeat_quiz": "Retry Quiz",
+          "button_next": "Next Lesson",
+          "get_result": [
+            {
+              "requirement": 20,
+              "title": "Try Harder!",
+              "sub_title": "You could do better next time"
+            },
+            {
+              "requirement": 50,
+              "title": "Don't Give Up!",
+              "sub_title": "Let's give more effort next time"
+            },
+            {
+              "requirement": 90,
+              "title": "Good!",
+              "sub_title": "You're doing a great job"
+            },
+            {
+              "requirement": 100,
+              "title": "Excellent",
+              "sub_title": "You've mastered this knowledge"
+            }
+          ]
+        }
+      },
+      "qna": {
+        "qna_confirmation": {
+          "header": "Skip the lesson?",
+          "description": "You can't ask a question later and won't get the EXPs.",
+          "skip": "Leave",
+          "button": "Continue lesson"
+        }
+      },
+      "reflect": {
+        "checkbox": "share to Social Activity"
+      },
+      "sync": {
+        "message": {
+          "sync": "Your progress synchronized and saved successfully.",
+          "loading": "Synchronizing...",
+          "failed": "Synchronization failed. Please try again.",
+          "unsync": "Synchronize your progress to save it."
+        },
+        "button": {
+          "failed": "Try Again",
+          "unsync": "Sync now"
+        }
+      },
+      "completeLesson": {
+        "title": "You've finished the lesson!",
+        "reflect": "You can only do Reflect lessons once. Try doing other lessons in the course.",
+        "qna": "You can only do Community Q&A lessons once. Try doing other lessons in the course.",
+        "button": "Got it"
+      }
+    },
+    "id-ID": {
+      "language": "indonesia",
+      "topic": {
+        "lesson_remains": {
+          "finish": "Topik selesai",
+          "unfinish": "pelajaran tersisa"
+        }
+      },
+      "exam": {
+        "exam_confirmation": {
+          "description": "Exam hanya bisa dilakukan sekali. Centang boks jika kamu sudah siap.",
+          "checkbox": "Aku siap!",
+          "button_start": "Mulai",
+          "button_back": "Kembali ke topik"
+        },
+        "exam_nav_button": {
+          "button_next": "Lewati",
+          "button_previous": "Sebelumnya",
+          "button_finish": "Selesai"
+        },
+        "exam_header": {
+          "question_select": "Pilih Soal"
+        },
+        "exam_checkpoint": {
+          "header": "Hampir Selesai!",
+          "description": "Periksa kembali jawabanmu dengan sisa waktu dibawah.",
+          "button_check_answer": "Periksa Jawaban",
+          "button_send_answer": "Kirim jawaban"
+        },
+        "exam_review": {
+          "question_name": "Soal",
+          "header": "Klik Pertanyaan untuk Mengganti Jawaban",
+          "button_send_answer": "Kirim Jawaban"
+        },
+        "exam_timeout": {
+          "header": "Waktunya Habis!",
+          "description": "Jangan khawatir, soal yang sudah kamu jawab masih bisa dikirim.",
+          "button": "Kirim Jawaban"
+        },
+        "exam_submit": {
+          "confirmation": {
+            "header": "Kirim Jawaban?",
+            "description": "Jawaban tidak bisa diganti setelah dikirim. Periksa lagi jawabanmu ya.",
+            "checkbox": "Ya, Saya Mengerti",
+            "button": "Kirim Jawaban"
+          },
+          "sending": "Mengirim...",
+          "success": {
+            "header": "Jawaban Dikirim",
+            "description": "Kamu akan menerima skor yang dinilai dari jawaban benarmu",
+            "button": "Lihat Skor"
+          }
+        },
+        "exam_result": {
+          "header": "Skor Akhir",
+          "button": "Selesai",
+          "get_result": [
+            {
+              "requirement": 0,
+              "title": "Jangan Menyerah!",
+              "sub_title": "Terus semangat untuk belajar ya"
+            },
+            {
+              "requirement": 60,
+              "title": "Sedikit Lagi!",
+              "sub_title": "Kamu semakin mahir"
+            },
+            {
+              "requirement": 90,
+              "title": "Hebat!",
+              "sub_title": "Usaha kerasmu membuahkan hasil"
+            },
+            {
+              "requirement": 100,
+              "title": "Sangat Bagus!",
+              "sub_title": "Kamu menguasai pelajaran ini"
+            }
+          ]
+        },
+        "exam_failed": {
+          "title": "Kamu tidak lulus exam",
+          "body": "Tapi jangan menyerah! Pelajari lagi pelajaran sebelumnya untuk mengikuti kembali exam.",
+          "button": "Kembali ke topic"
+        }
+      },
+      "checkpoint": {
+        "header": "Pelajaran Selesai",
+        "exp_text": "Kamu Dapat",
+        "button_next_lesson": "Pelajaran Berikutnya",
+        "button_back_topic": "Kembali ke Topik"
+      },
+      "read": {
+        "author": "Oleh"
+      },
+      "exercise": {
+        "exercise_content": {
+          "button_slider": "Kirim",
+          "button_essay": "Kirim",
+          "button_pointanswer": "Kirim",
+          "button_checkbox": "Kirim"
+        },
+        "exercise_result": {
+          "header": "Hasil"
+        }
+      },
+      "watch": {
+        "button_next": "Berikutnya",
+        "button_previous": "Sebelumnya"
+      },
+      "quiz": {
+        "quiz_review": {
+          "header": "HASIL",
+          "button": "Oke"
+        },
+        "quiz_result": {
+          "header": "Skor Akhir",
+          "button_check_answer": "Periksa Jawabanku",
+          "button_repeat_quiz": "Ulangi kuis",
+          "button_next": "Berikutnya",
+          "get_result": [
+            {
+              "requirement": 20,
+              "title": "Jangan Menyerah!",
+              "sub_title": "Terus semangat untuk belajar ya"
+            },
+            {
+              "requirement": 50,
+              "title": "Sedikit Lagi!",
+              "sub_title": "Kamu semakin mahir"
+            },
+            {
+              "requirement": 90,
+              "title": "Hebat!",
+              "sub_title": "Usaha kerasmu membuahkan hasil"
+            },
+            {
+              "requirement": 100,
+              "title": "Sangat Bagus!",
+              "sub_title": "Kamu menguasai pelajaran ini"
+            }
+          ]
+        }
+      },
+      "qna": {
+        "qna_confirmation": {
+          "header": "Lewati Pelajaran?",
+          "description": "Kamu tidak akan bisa buat pertanyaan dan mendapatkan EXP.",
+          "skip": "Lewati",
+          "button": "Buat pertanyaan"
+        }
+      },
+      "reflect": {
+        "checkbox": "bagikan ke Aktivitas Sosial"
+      },
+      "sync": {
+        "message": {
+          "sync": "Progres kamu telah dihubungkan dan disimpan.",
+          "loading": "Menghubungkan...",
+          "failed": "Gagal menghubungkan. Silakan coba lagi.",
+          "unsync": "Hubungkan progress course dengan server untuk menyimpannya."
+        },
+        "button": {
+          "failed": "Coba lagi",
+          "unsync": "Hubungkan"
+        }
+      },
+      "completeLesson": {
+        "title": "Pelajaran sudah selesai",
+        "reflect": "Pelajaran Reflect hanya bisa dikerjakan sekali. Ayo, coba kerjakan pelajaran lain!",
+        "qna": "Pelajaran Community Q&A hanya bisa dikerjakan sekali. Coba pelajaran lain, yuk!",
+        "button": "Ayo!"
+      }
+    }
+  }
+}

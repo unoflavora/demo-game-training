@@ -1,0 +1,14 @@
+{ "columns":3,
+ "image":"..\/tiles\/Trakindo\/tileset trakindo_extruded.png",
+ "imageheight":1518,
+ "imagewidth":198,
+ "margin":1,
+ "name":"tileset trakindo_extruded",
+ "spacing":2,
+ "tilecount":69,
+ "tiledversion":"1.7.2",
+ "tileheight":64,
+ "tilewidth":64,
+ "type":"tileset",
+ "version":"1.6"
+}

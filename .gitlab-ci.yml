@@ -1,0 +1,150 @@
+variables:
+  DEV_BUCKET_NAME: "bucket-gf-dev.agatedev.net"
+  PROHIBITED_PROJECT_NAME: "my-phaser-project"
+
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+# ----------------------------- BUILD -------------------------------
+
+.build-template:
+  stage: build
+  image: node:10.14.2-alpine
+  tags:
+    - docker-exec
+  variables:
+    GAME_SUFFIX: ""
+    BUILD_COMMAND: "build"
+  artifacts:
+    paths:
+      - build
+      - .game-alias
+    expire_in: 1h
+  script:
+    # setup git
+    - apk add git
+    # read game alias from package.json
+    - npm i -g jase
+    - cat package.json | jase name > .game-alias
+    # check game alias
+    - GAME_ALIAS_CHECK=$(cat .game-alias)
+    - |
+      if [ $GAME_ALIAS_CHECK == $PROHIBITED_PROJECT_NAME ];
+      then echo "Please use different Project Name" && exit 1;
+      fi
+    - GAME_ALIAS=$(cat .game-alias)$GAME_SUFFIX
+    # installing dependencies
+    - npm install
+    # build
+    - npm run ${BUILD_COMMAND}
+    # rename build folder to match game name
+    - mkdir build
+    - mv dist/ build/"${GAME_ALIAS}"
+
+build-feature:
+  extends: .build-template
+  variables:
+    GAME_SUFFIX: "-dev"
+    BUILD_COMMAND: "build:dev"
+  except:
+    - develop
+    - staging
+    - master
+
+build-develop:
+  extends: .build-template
+  variables:
+    GAME_SUFFIX: "-dev"
+    BUILD_COMMAND: "build:dev"
+  only:
+    - develop
+
+build-staging:
+  extends: .build-template
+  variables:
+    GAME_SUFFIX: "-stag"
+    BUILD_COMMAND: "build:stag"
+  only:
+    - staging
+
+build-production:
+  extends: .build-template
+  environment:
+    name: PRODUCTION
+  only:
+    - master
+
+# ----------------------------- DEPLOY -------------------------------
+
+.deploy-template:
+  stage: deploy
+  image: google/cloud-sdk
+  tags:
+    - docker-exec
+  variables:
+    GAME_SUFFIX: ""
+    TARGET_BUCKET_NAME: $DEV_BUCKET_NAME
+  dependencies:
+    - build-production
+  before_script:
+    # set dynamic variable game-alias
+    - GAME_ALIAS=$(cat .game-alias)$GAME_SUFFIX
+    - UPLOAD_TARGET=${TARGET_BUCKET_NAME}/${GAME_ALIAS}
+  script:
+    # authenticate
+    - echo "$GCP_SERVICE_ACCOUNT" | tr -d '\r' > keyfile.json
+    - gcloud auth activate-service-account --key-file keyfile.json
+    # delete build files
+    - |
+      if ( gsutil -q stat gs://${UPLOAD_TARGET}/**);
+      then gsutil -m rm gs://${UPLOAD_TARGET}/**;
+      fi
+    # upload new build files
+    - gsutil -m cp -r build/${GAME_ALIAS}/** gs://${UPLOAD_TARGET}/
+
+deploy-develop:
+  extends: .deploy-template
+  variables:
+    GAME_SUFFIX: "-dev"
+  dependencies:
+    - build-develop
+  only:
+    - develop
+
+deploy-staging:
+  extends: .deploy-template
+  variables:
+    GAME_SUFFIX: "-stag"
+  dependencies:
+    - build-staging
+  only:
+    - staging
+
+deploy-production:
+  extends: .deploy-template
+  environment:
+    name: PRODUCTION
+  variables:
+    TARGET_BUCKET_NAME: $PRODUCTION_BUCKET_NAME
+  before_script:
+    # check to makesure no root & no dev target
+    - |
+      if [ $TARGET_BUCKET_NAME == $DEV_BUCKET_NAME ] && [ $PRODUCTION_ROOT_UPLOAD == true ];
+      then echo "Dont overwrite Dev Bucket!!" && exit 1;
+      fi
+    # set dynamic variable game-alias
+    - |
+      if [ $PRODUCTION_ROOT_UPLOAD == true ];
+      then GAME_ALIAS=$(cat .game-alias) && UPLOAD_TARGET=${TARGET_BUCKET_NAME};
+      elif [ $PRODUCTION_ROOT_UPLOAD == false ];
+      then GAME_ALIAS=$(cat .game-alias) && UPLOAD_TARGET=${TARGET_BUCKET_NAME}/${GAME_ALIAS};
+      else echo "Please specify PRODUCTION_ROOT_UPLOAD" && exit 1;
+      fi
+  when: manual
+  only:
+    - master

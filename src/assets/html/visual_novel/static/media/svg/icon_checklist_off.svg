@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="icon_checklist_off" transform="translate(3615 13357)">
+    <rect id="Rectangle_3020" data-name="Rectangle 3020" width="50" height="50" transform="translate(-3615 -13357)" fill="none"/>
+    <g id="Ellipse_733" data-name="Ellipse 733" transform="translate(-3611.958 -13353.878)">
+      <circle id="Ellipse_738" data-name="Ellipse 738" cx="21.879" cy="21.879" r="21.879" transform="translate(0 0)" fill="#e6e6e6" stroke="#dcd7d7" stroke-width="1"/>
+    </g>
+    <path id="Union_59" data-name="Union 59" d="M3.071,16.376H2.994A2.994,2.994,0,0,1,0,13.382V2.994a2.995,2.995,0,0,1,5.99,0v7.241h14.9a3.07,3.07,0,1,1,0,6.141Z" transform="translate(-3604.136 -13332.514) rotate(-45)" fill="#fff"/>
+  </g>
+</svg>

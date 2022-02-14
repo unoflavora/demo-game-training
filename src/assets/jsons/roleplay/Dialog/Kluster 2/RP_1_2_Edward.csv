@@ -1,0 +1,7 @@
+﻿startId,0,,,,,,,
+,,,,,,,,
+id,type,talker,messages,emote,question type,choices,choiceValues,choiceIdNexts
+0,message,Edward,Selamat Anda telah menyelesaikan Misi 1,,,,,1
+1,message,Edward,Selanjutnya silakan masuk kembali ke dalam Gedung dan temukan  ruangan yang didalamnya terdapat sebuah Buku yang berisi petunjuk terkait Misi 2 yang perlu Anda selesaikan.,,,,,2
+2,message,Edward,Kemudian temukan pesawat telepon di atas meja ruangan lainnya dan selesaikan misi.,,,,,3
+3,message,Pemain,Ok. . . Sekarang saya akan menuju ke dalam Gedung kembali untuk menyelesakan Misi 2,,,,,

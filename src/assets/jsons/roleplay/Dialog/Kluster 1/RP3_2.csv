@@ -1,0 +1,17 @@
+﻿startId;0;dialogueType;roleplay;;;;;
+startEmote;4;afterSatisfiedId;316;;;;;
+id;type;talker;messages;emote;question type;choices;choiceValues;choiceIdNexts
+0;message;Pak abdul;Tunggu!!;;;;;1
+1;message;Pemain;Ada apa pak?;;;;;2
+2;message;Pak abdul;"Sebelum kamu melanjutkan perjalanan, ada satu pertanyaan penting dulu untukmu.";;;;;3
+3;message;Pemain;"Pertanyaan lagi? Baiklah; apa boleh buat.";;;;;4
+4;message;Pak abdul;"Oke, jadi, pertanyaannya adalah...";;;;;5
+5;question;Pak Abdul;Pilihlah jawaban yang benar;;multiple choice;Jangan pilih ini | Pilihlah ini | Jangan pilih ini;0 | 1 | 0;7 | 8 | 7
+6;message;Pak abdul;Hmm... jawaban kamu belum benar.;;;;;7
+7;message;Pak Abdul;Bagus... bagus. Syukurlah kamu mengerti.;;;;;8
+8;message;Pemain;Itu saja pak?;;;;;9
+9;message;Pak Abdul;"Iya benar, saya hanya ingin tahu apakah kamu sudah memahami apa saja yang perlu diidentifikasi dari nasabah.";;;;;10
+10;message;Pemain;Kenapa begitu?;;;;;11
+11;message;Pak Abdul;"Karena kelak kamu akan menemui area studi kasus, di mana kamu harus mampu mengidentifikasi hal yang tepat untuk bisa menjawab dengan benar.";;;;;12
+12;message;Pemain;"Wah, terima kasih bantuannya pak! Saya akan berhati-hati!";;;;;13
+13;message;Pak abdul;Bagus kalau begitu. Semoga beruntung ya!;;;;;

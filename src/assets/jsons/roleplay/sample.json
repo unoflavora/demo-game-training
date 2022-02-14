@@ -1,0 +1,34 @@
+{
+	"startId" : 0,
+	"dialogues":
+	[
+		{
+			"id" : 0,
+			"type" : "choice",
+			"messages" : ["Hai, saya sedang butuh bantuan. Kamu mau kan membantu saya?"],
+			"choices" : ["Iya, dengan senang hati","Maaf, saya lagi sibuk berburu"],
+			"choiceValues" : [0,0],
+			"choiceIdNexts" : [1,-1]
+		},
+		{
+			"id" : 1,
+			"type" : "choice",
+			"messages" : ["Kamu tahu gak letak Monumen Nasional Republik Indonesia?"],
+			"choices" : ["Jayakarta","Jakarta","Jogjakarta"],
+			"choiceValues" : [0,1,0],
+			"choiceIdNexts" : [3,2,3]
+		},		
+		{ 
+			"id" : 2,
+			"type" : "message",
+			"messages" : ["Oh iya, benar.. terima kasih ya."],
+			"choiceIdNexts":-1
+		},
+		{ 
+			"id" : 3,
+			"type" : "message",
+			"messages" : ["Seinget saya bukan disana deh."],
+			"choiceIdNexts":1
+		}
+	]
+}

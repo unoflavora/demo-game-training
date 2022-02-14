@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="icon_lock" transform="translate(3972 14001)">
+    <rect id="Rectangle_3019" data-name="Rectangle 3019" width="50" height="50" transform="translate(-3972 -14001)" fill="none"/>
+    <path id="ic_lock_24px" d="M32,15H30V11a10,10,0,0,0-20,0v4H8a4.012,4.012,0,0,0-4,4V39a4.012,4.012,0,0,0,4,4H32a4.012,4.012,0,0,0,4-4V19A4.012,4.012,0,0,0,32,15ZM20,33a4,4,0,1,1,4-4A4.012,4.012,0,0,1,20,33Zm6.2-18H13.8V11a6.2,6.2,0,0,1,12.4,0Z" transform="translate(-3967 -13998)" fill="#e6e6e6" stroke="#dcd7d7" stroke-width="1"/>
+  </g>
+</svg>

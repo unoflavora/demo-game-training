@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="icon_check" transform="translate(4340.001 15405)">
+    <path id="Rectangle_2973" data-name="Rectangle 2973" d="M2335.693,2712.693v-100h100v100" transform="translate(-6675.694 -18017.693)" fill="none"/>
+    <g id="Ellipse_733" data-name="Ellipse 733" transform="translate(-4325.958 -15390.957)">
+      <circle id="Ellipse_738" data-name="Ellipse 738" cx="35.957" cy="35.957" r="35.957" transform="translate(0 0)" fill="#7ac70c"/>
+      <circle id="Ellipse_739" data-name="Ellipse 739" cx="34.954" cy="34.954" r="34.954" transform="translate(1.003 1.003)" fill="none" stroke="#578c03" stroke-width="2"/>
+    </g>
+    <path id="Union_59" data-name="Union 59" d="M5,26.914H4.921A4.921,4.921,0,0,1,0,21.992V4.921a4.921,4.921,0,0,1,9.842,0v11.9H34.37a5,5,0,0,1,5,5v.093a5,5,0,0,1-5,5Z" transform="translate(-4313.103 -15355.847) rotate(-45)" fill="#fff"/>
+  </g>
+</svg>
